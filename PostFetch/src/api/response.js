@@ -1,0 +1,6 @@
+export const getPosts = async () => {
+    const response = await fetch("https://api.rss2json.com/v1/api.json?rss_url=https://rss.nytimes.com/services/xml/rss/nyt/World.xml", {
+        method: "GET"
+    });
+    return await response.json();
+}

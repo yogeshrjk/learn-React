@@ -1,0 +1,51 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background: #b1b2fa;
+    background: linear-gradient(90deg, rgba(177, 178, 250, 0.8) 0%, rgba(193, 216, 247, 0.46) 50%, rgba(138, 242, 219, 0.48) 100%);
+}
+
+.search {
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+}
+
+.search input {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img {
+    margin-top: 10px;
+}
+
+.card h2 {
+    text-align: center;
+    font: 30px Georgia, serif;
+    font-weight: bolder;
+}
+
+.card h3 {
+    text-align: center;
+    font: 20px Georgia, serif;
+    font-weight: bold;
+
+}
+
+
+.refresh {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: deepskyblue;
+}
